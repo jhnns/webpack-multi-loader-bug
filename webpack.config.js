@@ -15,7 +15,7 @@ module.exports = {
             {
                 include: require.resolve("./src/other.js"),
                 issuer: require.resolve("./src/checkB.js"),
-                use: require.resolve("./loaders/B.js")
+                use: require.resolve("./loaders/b.js")
             }
         ]
     },
