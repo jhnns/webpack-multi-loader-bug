@@ -1,0 +1,27 @@
+{
+  "name": "webpack-multi-loader-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "run-s build run",
+    "build": "webpack",
+    "run": "node ./dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhnns/webpack-multi-loader-bug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/jhnns/webpack-multi-loader-bug/issues"
+  },
+  "homepage": "https://github.com/jhnns/webpack-multi-loader-bug#readme",
+  "dependencies": {
+    "npm-run-all": "^4.1.2",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
